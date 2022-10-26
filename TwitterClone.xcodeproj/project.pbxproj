@@ -16,6 +16,8 @@
 		B2CF47CD2909043E00759AF4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47CC2909043E00759AF4 /* SearchViewController.swift */; };
 		B2CF47CF2909045F00759AF4 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47CE2909045F00759AF4 /* NotificationViewController.swift */; };
 		B2CF47D12909047000759AF4 /* DirectMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D02909047000759AF4 /* DirectMessageViewController.swift */; };
+		B2CF47D42909088C00759AF4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */; };
+		B2CF47D729090A9E00759AF4 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B2CF47CC2909043E00759AF4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		B2CF47CE2909045F00759AF4 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B2CF47D02909047000759AF4 /* DirectMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageViewController.swift; sourceTree = "<group>"; };
+		B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,9 @@
 		B2CF47B3290900EB00759AF4 /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				B2CF47D22909087800759AF4 /* Views */,
 				B2CF47C82909040C00759AF4 /* Controllers */,
+				B2CF47D529090A8200759AF4 /* Utilies */,
 				B2CF47B4290900EB00759AF4 /* AppDelegate.swift */,
 				B2CF47B6290900EB00759AF4 /* SceneDelegate.swift */,
 				B2CF47BD290900ED00759AF4 /* Assets.xcassets */,
@@ -90,6 +96,22 @@
 				B2CF47D02909047000759AF4 /* DirectMessageViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B2CF47D22909087800759AF4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2CF47D529090A8200759AF4 /* Utilies */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */,
+			);
+			path = Utilies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,10 +187,12 @@
 				B2CF47CD2909043E00759AF4 /* SearchViewController.swift in Sources */,
 				B2CF47B9290900EB00759AF4 /* MainTabBarViewController.swift in Sources */,
 				B2CF47CF2909045F00759AF4 /* NotificationViewController.swift in Sources */,
+				B2CF47D729090A9E00759AF4 /* UIView-Extension.swift in Sources */,
 				B2CF47B5290900EB00759AF4 /* AppDelegate.swift in Sources */,
 				B2CF47D12909047000759AF4 /* DirectMessageViewController.swift in Sources */,
 				B2CF47B7290900EB00759AF4 /* SceneDelegate.swift in Sources */,
 				B2CF47CB2909043300759AF4 /* HomeViewController.swift in Sources */,
+				B2CF47D42909088C00759AF4 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

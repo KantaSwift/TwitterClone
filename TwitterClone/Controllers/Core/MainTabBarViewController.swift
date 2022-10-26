@@ -30,6 +30,5 @@ class MainTabBarViewController: UITabBarController {
         directMessageVC.tabBarItem.selectedImage = UIImage(systemName: "envelope.fill")
         
         setViewControllers([homeVC, searchVC, notificationVC, directMessageVC], animated: true)
-        
     }
 }
