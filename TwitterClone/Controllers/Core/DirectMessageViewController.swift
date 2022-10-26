@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DirectMessageViewController: UIViewController {
+final class DirectMessageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

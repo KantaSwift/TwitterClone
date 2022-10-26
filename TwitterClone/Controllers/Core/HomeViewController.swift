@@ -7,7 +7,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
+final class HomeViewController: UIViewController {
     
     private let timeLineTableView: UITableView = {
         let tableView = UITableView()
@@ -20,6 +20,28 @@ class HomeViewController: UIViewController {
         setupViews()
         timeLineTableView.delegate = self
         timeLineTableView.dataSource = self
+        configureNavigationBar()
+    }
+    
+    
+    private func configureNavigationBar() {
+        let size: CGFloat = 36
+        let logoImageView = UIImageView(frame: CGRect(x: 0, y: 0, width: size, height: size))
+        logoImageView.contentMode = .scaleAspectFill
+        logoImageView.image = UIImage(named: "twitterLogo")
+        
+        let middleView = UIView(frame: CGRect(x: 0, y: 0, width: size, height: size))
+        middleView.addSubview(logoImageView)
+        navigationItem.titleView = middleView
+        
+        
+        let profileImage = UIImage(systemName: "person")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: profileImage, style: .plain, target: self, action: #selector(profileImageDidTap))
+    }
+    
+    @objc private func profileImageDidTap() {
+        let profileVC = ProfileViewController()
+        navigationController?.pushViewController(profileVC, animated: true)
     }
     
     override func viewDidLayoutSubviews() {

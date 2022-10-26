@@ -18,6 +18,7 @@
 		B2CF47D12909047000759AF4 /* DirectMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D02909047000759AF4 /* DirectMessageViewController.swift */; };
 		B2CF47D42909088C00759AF4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */; };
 		B2CF47D729090A9E00759AF4 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */; };
+		B2CF47FC29092EEE00759AF4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47FB29092EEE00759AF4 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B2CF47D02909047000759AF4 /* DirectMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectMessageViewController.swift; sourceTree = "<group>"; };
 		B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		B2CF47FB29092EEE00759AF4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		B2CF47C82909040C00759AF4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B2CF47FA29092EA300759AF4 /* General */,
 				B2CF47C92909041900759AF4 /* Core */,
 			);
 			path = Controllers;
@@ -112,6 +115,14 @@
 				B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */,
 			);
 			path = Utilies;
+			sourceTree = "<group>";
+		};
+		B2CF47FA29092EA300759AF4 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				B2CF47FB29092EEE00759AF4 /* ProfileViewController.swift */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			files = (
 				B2CF47CD2909043E00759AF4 /* SearchViewController.swift in Sources */,
 				B2CF47B9290900EB00759AF4 /* MainTabBarViewController.swift in Sources */,
+				B2CF47FC29092EEE00759AF4 /* ProfileViewController.swift in Sources */,
 				B2CF47CF2909045F00759AF4 /* NotificationViewController.swift in Sources */,
 				B2CF47D729090A9E00759AF4 /* UIView-Extension.swift in Sources */,
 				B2CF47B5290900EB00759AF4 /* AppDelegate.swift in Sources */,

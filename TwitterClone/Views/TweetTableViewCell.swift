@@ -14,7 +14,7 @@ protocol TweetTableViewCellDelegate: AnyObject {
     func shareButtonDidTap()
 }
 
-class TweetTableViewCell: UITableViewCell {
+final class TweetTableViewCell: UITableViewCell {
     
     weak var delegate: TweetTableViewCellDelegate?
     
@@ -86,7 +86,7 @@ class TweetTableViewCell: UITableViewCell {
         stackView.spacing = 30
         return stackView
     }()
-
+    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         setupViews()
