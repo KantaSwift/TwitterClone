@@ -19,6 +19,7 @@
 		B2CF47D42909088C00759AF4 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */; };
 		B2CF47D729090A9E00759AF4 /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */; };
 		B2CF47FC29092EEE00759AF4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47FB29092EEE00759AF4 /* ProfileViewController.swift */; };
+		B2CF47FE29093CA900759AF4 /* ProfileTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2CF47FD29093CA900759AF4 /* ProfileTableViewHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 		B2CF47D629090A9E00759AF4 /* UIView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
 		B2CF47FB29092EEE00759AF4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B2CF47FD29093CA900759AF4 /* ProfileTableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B2CF47D32909088C00759AF4 /* TweetTableViewCell.swift */,
+				B2CF47FD29093CA900759AF4 /* ProfileTableViewHeader.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				B2CF47B7290900EB00759AF4 /* SceneDelegate.swift in Sources */,
 				B2CF47CB2909043300759AF4 /* HomeViewController.swift in Sources */,
 				B2CF47D42909088C00759AF4 /* TweetTableViewCell.swift in Sources */,
+				B2CF47FE29093CA900759AF4 /* ProfileTableViewHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
